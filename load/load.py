@@ -73,7 +73,7 @@ connection_string = (
     "SERVER=localhost,1434;"
     "DATABASE=DataEngineering;"
     "UID=sa;"
-    "PWD=Jakarta@202608;"
+    "PWD=YourPassword;"
     "TrustServerCertificate=yes;"    
 )
 connection_url = "mssql+pyodbc:///?odbc_connect=" + quote_plus(

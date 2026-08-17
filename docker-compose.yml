@@ -4,7 +4,7 @@ services:
     restart: always
     container_name: sql_server
     environment:
-      MSSQL_SA_PASSWORD: "Jakarta@202608"
+      MSSQL_SA_PASSWORD: "YourPassword"
       ACCEPT_EULA: "Y"
     ports:
       - "1434:1433"
